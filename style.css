@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    overflow: hidden;
+    background-color: #f5f2f0;
+}
+.navbar-menu{
+    margin:50px 100px 0 100px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu .navbar .logo img{
+    width: 120px;
+}
+.navbar-menu .navbar .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 55px;
+}
+.line{
+    border: 1px solid black;
+    width: 275px;
+}
+.left-side .image {
+width: 40vw;
+height: 100%;
+z-index: -1;
+position: fixed;
+top: 0;
+
+}
+
+.left-side .image img {
+    width: 100%;
+    height: 100%;
+}
+.right-side{
+   /* display: flex; */
+    margin-left: 40%;
+    /* width: 60vw; */
+}
+.right-side .heading {
+    position: relative;
+    left: 50px;
+    top: 25px;
+    font-size: 60px;
+}
+.right-side .heading .part1{
+  
+    font-family: "Merriweather";
+    -webkit-text-stroke: 2px #888888;
+	-webkit-text-fill-color: white;
+}
+.heading .part1::after {
+    content: "";
+    width: 30px;
+    height: 10px;
+    display: inline-block;
+    border: 2px solid #888888;
+    margin-bottom: 13px;
+}
+.right-side .heading .part2{
+    position: relative;
+    left: 80px;
+    top: -25px;
+}
+.heading .part2::after {
+    content: "";
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid black;
+    width: 10px;
+    height: 10px;
+   background-color: black;
+}
+.right-side .heading p{
+    position: relative;
+    left: 325px;
+    top: -95px;
+    font-size: 29px;
+    color: #888888;
+}
+.right-side .btn {
+    position: absolute;
+    right: 150px;
+}
+
+.right-side .btn button {
+    background-color: #333333;
+    color: #fff;
+    padding: 17px 70px;
+    border: none;
+    font-size: 18px;
+    position: relative;
+    top: -70px;
+    
+}
+
+.right-side .icons{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 20px;
+    position: absolute;
+    right: 100px;
+    top: 125px;
+
+}
+
+.right-side .facebook{
+    width: 13px;
+}
+
+.bottom ul > *{
+
+    list-style-type: none;
+    margin-left: 100px;
+    
+}
+
+.bottom ul li{
+  margin-bottom: 25px;
+}
+
+.bottom ul li span{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    /* border: 2p solid black; */
+    border-radius: 50%;
+    background-color: #888888;
+    position: relative;
+    left: -40px;
+    top: 22px;
+    /* z-index: -1; */
+  }
+  /* .bottom ul li span ::after {
+    content: "";
+    height: 25px;
+    display:inline-block;
+    width: 10px;
+    border: solid #888888;
+   
+  } */
+  .bottom ul .active-item .dot{
+    background-color: #333333;
+    width: 13px;
+    height: 13px;
+    /* z-index: -1; */
+  }
+  .bottom .line {
+    display: inline-block;
+    height: 300px;
+    width: .01px;
+    background-color: #adacab;
+    margin-left: 64px;
+    margin-top: 100px;
+    margin-bottom: -340px;
+}
+
+.bottom .quotes{
+    position: relative;
+    top: -290px;
+    left: 270px;
+
+}
+
+.bottom .para{
+    position: relative;
+    top: -280px;
+    left: 270px;
+    font-size: 20px;
+
+}
+
+.bottom .img{
+    overflow: hidden;
+    position: fixed;
+    position: relative;
+  bottom: 250px;
+    left: 270px; 
+    width: 400px;
+    height: 250px;
+    /* width: 100px;  */
+
+}
+.bottom .img img{
+   height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position:center;
+
+}
+.arrow .long-line{
+    display: inline-block;
+    height: 100px;
+    /* width: 1px; */
+    border: 1px solid #888888;
+    position: relative;
+    bottom: 500px;
+    right: -700px;
+}
+.arrow .short-line1{
+    display: inline-block;
+    height: 10px;
+    /* width: 1px; */
+    border: 1px solid #888888;
+    position: relative;
+    bottom: 500px;
+    right: -699px;
+    /* transform: rotate(-45); */
+}
+.arrow .short-line2{
+    display: inline-block;
+    height: 10px;
+    /* width: 1px; */
+    border: 1px solid #888888;
+    position: relative;
+    bottom: 500px;
+    right: -683px;
+    /* transform: rotate(-45); */
+}
+
+.arrow .arrows1{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.arrow .arrows2{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
