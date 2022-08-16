@@ -298,9 +298,7 @@ top: 0;
         
         padding: 15px 40px;
         font-size: 18px;
-        
-        
-    }
+        }
     
 }
 
@@ -310,4 +308,19 @@ top: 0;
         height: 65%;
         /* margin-right: 5rem; */
     }
+    .navbar-menu .navbar .list{
+        gap: 30px;
+    }
+    .right-side .btn button {
+        
+        padding: 10px 30px;
+        font-size: 15px;
+        }
+    .right-side .heading .part2{
+        margin-top: -5rem;
+    }
+    .right-side .heading .part1{
+        margin-top: 1rem;
+    }
+
 }
